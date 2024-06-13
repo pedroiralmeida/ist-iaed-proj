@@ -1,0 +1,10 @@
+bool invalid_code(char code[]);
+bool unexisting_airportID(char id[]);
+bool max_flights_reached();
+bool invalid_date(Date date);
+bool invalid_duration(Time duration);
+bool invalid_capacity(int capacity);
+bool invalid_reserv_code(char reserv_code[]);
+bool existing_revervation(char flycode[], char reserv_code[]);
+bool max_reservations_exceded(Flight *f, int num_passengers);
+bool invalid_passenger_num(int num_passengers);

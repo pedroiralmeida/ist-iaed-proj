@@ -1,0 +1,10 @@
+void destroy_node(r_node **to_remove);
+void destroy_list(r_node *root);
+void memcheck(char *reserv_code);
+void memcheck_node(r_node *node);
+void memcheck_reserv(Reservation *r);
+void memcheck_r_code(Reservation *r, char *reserv_code);
+void free_r(Reservation **r);
+void destroy_hashtable();
+void memcheck_hash_f(Hash_flight *h_f);
+void memcheck_flight(Hash_flight *h_f, Flight *f);
