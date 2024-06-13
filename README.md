@@ -26,7 +26,7 @@ The system operates through a command-line interface where users can input speci
 - **Update System Date (`t`)**: Updates the current date of the system.
     - **Usage**: `t <day>-<month>-<year>`
 - **Manage Reservations (`r`)**: Adds a reservation or lists reservations for a flight.
-    - **Usage**: `r <flycode> <date> <reservation_code> <num_passengers>`
+    - **Usage**: `r <flycode> <date> [<reservation_code> <num_passengers>]`
 - **Delete Flight or Reservation (`e`)**: Deletes a specified flight or reservation.
     - **Usage**: `e <flycode_or_reservation_code>`
 - **Quit (`q`)**: Exits the program and performs necessary cleanup.
@@ -59,7 +59,7 @@ The system operates through a command-line interface where users can input speci
     ```
     r AA123 2024-06-13 RES456 3
     ```
-    
+
 6. **Delete a Flight**:
     ```
     e AA123
@@ -87,6 +87,10 @@ By following the usage instructions and commands listed above, users can effecti
     ```
     This will delete all result files in the `tests` directory.
 
-By following these instructions, users can compile, manage, and clean the project effectively.<hr>
+<br>
+
+By following these instructions, users can compile, manage, and clean the project effectively.
+
+<hr>
 
 For details on running tests, please refer to the `tests` directory.
