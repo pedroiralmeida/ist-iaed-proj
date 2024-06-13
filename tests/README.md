@@ -1,6 +1,6 @@
-# Tests for the 2nd IAED Project
+# Tests
 
-This directory contains some community and the public tests for the second IAED project. 
+This directory contains some tests for the project. 
 
 Automatically test with the script:
 ```
