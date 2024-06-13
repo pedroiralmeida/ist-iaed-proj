@@ -44,16 +44,16 @@ The system operates through a command-line interface where users can input speci
     ```
     Output: List of all airports in the system.
 
-3. **Add a Flight**:
-    ```
-    v AA123 JFK LAX 2024-06-13 14:30 06:00 150
-    ```
-
-4. **List Flights by Departure**:
+3. **List Flights by Departure**:
     ```
     p JFK
     ```
     Output: List of flights departing from JFK.
+
+4. **Add a Flight**:
+    ```
+    v AA123 JFK LAX 2024-06-13 14:30 06:00 150
+    ```
 
 5. **Add a Reservation**:
     ```
@@ -87,4 +87,6 @@ By following the usage instructions and commands listed above, users can effecti
     ```
     This will delete all result files in the `tests` directory.
 
-By following these instructions, users can compile, manage, and clean the project effectively.
+By following these instructions, users can compile, manage, and clean the project effectively.<hr>
+
+For details on running tests, please refer to the `tests` directory.
